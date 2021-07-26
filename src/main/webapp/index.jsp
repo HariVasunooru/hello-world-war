@@ -4,7 +4,6 @@
 </head>
 <body>
 	<h1>Hello World!</h1>
-	<h2>First maven project deployed from Jenkins</h2>
 	<p>
 		It is now
 		<%= new java.util.Date() %></p>
