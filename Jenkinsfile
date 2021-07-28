@@ -13,14 +13,14 @@ pipeline {
                 }
             }
         }
-        stage('Deploy in Staging Environment'){
+        /* stage('Deploy in Staging Environment'){
             steps{
                 build job: 'Deploy_Application_Staging_Env'
 
             }
             
         }
-       /* stage('Deploy to Production'){
+       stage('Deploy to Production'){
             steps{
                 timeout(time:5, unit:'DAYS'){
                     input message:'Approve PRODUCTION Deployment?'
